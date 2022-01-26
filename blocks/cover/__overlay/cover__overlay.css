@@ -1,0 +1,9 @@
+.cover__overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-height: 740px;
+}
