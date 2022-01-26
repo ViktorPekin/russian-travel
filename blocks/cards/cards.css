@@ -1,0 +1,11 @@
+.cards {
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: repeat(2, min-content);
+  gap: 48px 40px;
+}
+
+.cards:last-child {
+  padding-bottom: 0;
+}
