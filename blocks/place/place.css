@@ -1,3 +1,21 @@
 .place {
-  margin: 92px 148px 0;
+  padding: 92px 148px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place {
+    padding: 64px 0 0;
+  }
 }

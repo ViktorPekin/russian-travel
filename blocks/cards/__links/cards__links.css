@@ -2,3 +2,9 @@
   margin: 0;
   align-self: end;
 }
+
+@media screen and (max-width: 424px) {
+  .cards__links {
+    margin: 0 16px 0;
+  }
+}

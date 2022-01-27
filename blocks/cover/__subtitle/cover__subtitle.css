@@ -7,3 +7,12 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 424px) {
+  .cover__subtitle {
+    margin: 16px 0 0;
+    max-width: 270px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

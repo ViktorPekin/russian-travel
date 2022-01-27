@@ -5,3 +5,21 @@
   line-height: 163%;
   color: #FFF;
 }
+
+@media screen and (max-width: 1023px) {
+  .cards__text-second {
+    margin: 25px 0 0;
+    font-size: 16px;
+  }
+}
+
+/* Это костыль чтобы сайт отображался как в макете при pixelPefect на 320px. Без одной строки весь контент снизу плывет.
+Сам по себе текст так не перенесется.*/
+@media screen and (max-width: 320px) {
+  .cards:nth-child(1) .cards__paragraph .cards__text-second {
+    min-height: 312px;
+  }
+  .cards:nth-child(4) .cards__paragraph .cards__text-second {
+    min-height: 281px;
+  }
+}

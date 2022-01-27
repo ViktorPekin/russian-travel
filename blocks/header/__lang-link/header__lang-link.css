@@ -11,3 +11,10 @@
   margin-right: 18px;
   text-align: center;
 }
+
+@media screen and (max-width: 424px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

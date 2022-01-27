@@ -9,3 +9,36 @@
 .cards:last-child {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .cards {
+    grid-template-columns: 440px 456px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards {
+    padding-bottom: 72px;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    padding-bottom: 50px;
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cards {
+    padding-bottom: 50px;
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
+}
+
+

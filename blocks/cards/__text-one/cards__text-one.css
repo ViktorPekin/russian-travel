@@ -5,3 +5,9 @@
   line-height: 163%;
   color: #FFF;
 }
+
+@media screen and (max-width: 1023px) {
+  .cards__text-one {
+    font-size: 16px;
+  }
+}
