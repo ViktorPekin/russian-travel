@@ -15,4 +15,4 @@ Html / Css / БЭМ / БЭМ Nested / Адаптивная верска
 
 **GitHub Pages**
 
-
+https://viktorpekin.github.io/russian-travel/
