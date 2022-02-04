@@ -1,6 +1,7 @@
 .cards {
   padding-bottom: 80px;
   display: grid;
+  justify-content: center;
   grid-template-columns: 460px 484px;
   grid-template-rows: repeat(2, min-content);
   gap: 48px 40px;
@@ -26,14 +27,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cards {
-    padding-bottom: 50px;
-    grid-template-columns: 100%;
-    gap: 32px;
-  }
-}
-
-@media screen and (max-width: 424px) {
   .cards {
     padding-bottom: 50px;
     grid-template-columns: 100%;

@@ -1,25 +1,23 @@
-.cards__text-second {
-  margin: 27px 0 0;
+.cards__text {
+  margin: 0 0 27px;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   color: #FFF;
 }
 
+.cards__text:last-child {
+  margin: 0;
+}
+
 @media screen and (max-width: 1023px) {
-  .cards__text-second {
-    margin: 25px 0 0;
+  .cards__text {
+    margin: 0 0 25px;
     font-size: 16px;
   }
 }
 
+
 /* Это костыль чтобы сайт отображался как в макете при pixelPefect на 320px. Без одной строки весь контент снизу плывет.
 Сам по себе текст так не перенесется.*/
-@media screen and (max-width: 320px) {
-  .cards:nth-child(1) .cards__paragraph .cards__text-second {
-    min-height: 312px;
-  }
-  .cards:nth-child(4) .cards__paragraph .cards__text-second {
-    min-height: 281px;
-  }
-}
+
