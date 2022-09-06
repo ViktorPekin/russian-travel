@@ -6,8 +6,11 @@
 
 ## Технологии
 
-Html / Css / БЭМ / БЭМ Nested / Адаптивная верска
+HTML / CSS / БЭМ / БЭМ Nested / Адаптивная верска
 
 ## GitHub Pages
 
-https://viktorpekin.github.io/russian-travel/
+https://viktorpekin.github.io/russian-travel
+
+## Статус
+-✅ Завершен
